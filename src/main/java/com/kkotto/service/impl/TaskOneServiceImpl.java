@@ -11,7 +11,9 @@ public class TaskOneServiceImpl implements TaskService {
         System.out.println(toCamelCase("the_stealth_warrior"));
     }
 
-    /*public String toCamelCase(String s) {
+    //My solution
+    /*
+     public String toCamelCase(String s) {
         if(s.isEmpty())
             return "";
         StringBuilder result = new StringBuilder();
@@ -31,6 +33,7 @@ public class TaskOneServiceImpl implements TaskService {
         return result.toString();
     }*/
 
+    //Best solution
     static String toCamelCase(String str){
         String[] words = str.split("[-_]");
         return Arrays.stream(words, 1, words.length)
