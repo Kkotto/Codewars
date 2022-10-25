@@ -6,8 +6,8 @@ import com.kkotto.service.impl.TaskTwoServiceImpl;
 
 public class Main {
     public static void main(String[] args) {
-        //new TaskOneServiceImpl().runTask();
-        //new TaskTwoServiceImpl().runTask();
+        new TaskOneServiceImpl().runTask();
+        new TaskTwoServiceImpl().runTask();
         new TaskThreeServiceImpl().runTask();
     }
 }

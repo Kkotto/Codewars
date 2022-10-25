@@ -3,7 +3,6 @@ package com.kkotto.service.impl;
 import com.kkotto.service.TaskService;
 
 import java.util.Arrays;
-import java.util.List;
 
 public class TaskOneServiceImpl implements TaskService {
     @Override
@@ -12,9 +11,8 @@ public class TaskOneServiceImpl implements TaskService {
     }
 
     //My solution
-    /*
-     public String toCamelCase(String s) {
-        if(s.isEmpty())
+    public String toCamelCase(String s) {
+        if (s.isEmpty())
             return "";
         StringBuilder result = new StringBuilder();
         StringBuilder s1 = new StringBuilder(s);
@@ -31,10 +29,10 @@ public class TaskOneServiceImpl implements TaskService {
         result.append(s1);
         result.replace(0, 1, String.valueOf(s.charAt(0)));
         return result.toString();
-    }*/
+    }
 
     //Best solution
-    static String toCamelCase(String str) {
+    static String toCamelCaseBest(String str) {
         String[] words = str.split("[-_]");
         return Arrays.stream(words, 1, words.length)
                 .map(s -> s.substring(0, 1).toUpperCase() + s.substring(1))

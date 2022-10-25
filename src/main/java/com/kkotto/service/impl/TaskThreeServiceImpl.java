@@ -16,8 +16,8 @@ public class TaskThreeServiceImpl implements TaskService {
         List<Character> vowels = List.of('a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U');
         char[] arr = str.toCharArray();
         StringBuilder sb = new StringBuilder();
-        for(char ch : arr){
-            if(!vowels.contains(ch)){
+        for (char ch : arr) {
+            if (!vowels.contains(ch)) {
                 sb.append(ch);
             }
         }
@@ -25,8 +25,7 @@ public class TaskThreeServiceImpl implements TaskService {
     }
 
     //Best Solution
-    /*
-    public String disemvowel(String Z) {
-        return Z.replaceAll("(?i)[aeiou]" , "");
-    }*/
+    public String disemvowelBest(String Z) {
+        return Z.replaceAll("(?i)[aeiou]", "");
+    }
 }
