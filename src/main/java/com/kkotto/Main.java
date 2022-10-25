@@ -1,7 +1,9 @@
 package com.kkotto;
 
+import com.kkotto.service.impl.TaskOneServiceImpl;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        new TaskOneServiceImpl().runTask();
     }
 }
