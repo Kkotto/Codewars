@@ -15,7 +15,7 @@ public class TaskTwoServiceImpl implements TaskService {
     }
 
     //Best solution
-    /*public static boolean solution(String str, String ending) {
+    /*public boolean solution(String str, String ending) {
         return str.endsWith(ending);
     }*/
 }
