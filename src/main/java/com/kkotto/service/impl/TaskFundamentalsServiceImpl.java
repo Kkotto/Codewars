@@ -3,7 +3,6 @@ package com.kkotto.service.impl;
 import com.kkotto.service.TaskService;
 
 import java.util.Arrays;
-import java.util.regex.Pattern;
 
 public class TaskFundamentalsServiceImpl implements TaskService {
     @Override
@@ -26,8 +25,8 @@ public class TaskFundamentalsServiceImpl implements TaskService {
     public int[] digitize(long n) {
         StringBuilder sb = new StringBuilder(String.valueOf(n)).reverse();
         int[] arr = new int[sb.length()];
-        int i=0;
-        for(char s : sb.toString().toCharArray()){
+        int i = 0;
+        for (char s : sb.toString().toCharArray()) {
             arr[i] = Integer.parseInt(String.valueOf(s));
             i++;
         }
