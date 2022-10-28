@@ -7,3 +7,5 @@ Each kata is crafted for and by the community.
 
 "Codewars" repository is dedicated to completing katas. Each task is described in READ.ME and presented by my solution. 
 Best solution of community is also written here to see the best and fastest way of problem solving and to learn new features.
+
+Tasks 1-3 and "Fundamental" Tasks are located in ["small-tasks" branch](https://github.com/Kkotto/Codewars/tree/small-tasks).
