@@ -1,5 +1,7 @@
 # Codewars
 
+[![wakatime](https://wakatime.com/badge/github/Kkotto/Codewars.svg)](https://wakatime.com/badge/github/Kkotto/Codewars)
+
 [Codewars](https://www.codewars.com/dashboard) is an online platform that presents its users with coding challenges called “kata”.
 > In our dojo, kata are real code challenges focused on improving skill and technique. 
 Some train programming fundamentals, while others focus on complex problem solving. 
